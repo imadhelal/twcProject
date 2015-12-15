@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="258568" started-at="2015-12-15T16:39:54Z" finished-at="2015-12-15T16:44:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="258568" started-at="2015-12-15T16:39:54Z" finished-at="2015-12-15T16:44:12Z">
+      <class name="com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks@18c7aca]" name="setUp" is-config="true" duration-ms="43151" started-at="2015-12-15T11:39:11Z" finished-at="2015-12-15T11:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLinks()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks@18c7aca]" name="verifyLinks" duration-ms="3031" started-at="2015-12-15T11:39:54Z" description="Verify Header Links" finished-at="2015-12-15T11:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinks -->
+        <test-method status="PASS" signature="handleScreenShot(org.testng.ITestResult)[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks@18c7aca]" name="handleScreenShot" is-config="true" duration-ms="121" started-at="2015-12-15T11:39:57Z" finished-at="2015-12-15T11:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLinks status=SUCCESS method=Ts001_Tc001_VerifyHeaderLinks.verifyLinks()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks@18c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks@18c7aca]" name="closeBrowser" is-config="true" duration-ms="66" started-at="2015-12-15T11:44:12Z" finished-at="2015-12-15T11:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality">
+        <test-method status="PASS" signature="verifySearchFunctionForKnownString()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality@12050f6]" name="verifySearchFunctionForKnownString" duration-ms="77399" started-at="2015-12-15T11:42:39Z" description="Validate Search Functionality" finished-at="2015-12-15T11:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionForKnownString -->
+        <test-method status="PASS" signature="handleScreenShot(org.testng.ITestResult)[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality@12050f6]" name="handleScreenShot" is-config="true" duration-ms="86" started-at="2015-12-15T11:43:56Z" finished-at="2015-12-15T11:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionForKnownString status=SUCCESS method=Ts001_Tc004_ValidateSearchFunctionality.verifySearchFunctionForKnownString()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality@12050f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenShot -->
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin">
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin@d3bd8b]" name="verifylogin" duration-ms="42417" started-at="2015-12-15T11:39:57Z" description="Verify invalid Login" finished-at="2015-12-15T11:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="handleScreenShot(org.testng.ITestResult)[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin@d3bd8b]" name="handleScreenShot" is-config="true" duration-ms="71" started-at="2015-12-15T11:40:39Z" finished-at="2015-12-15T11:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogin status=SUCCESS method=Ts001_Tc002_VerifyInvalidLogin.verifylogin()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin@d3bd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenShot -->
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin">
+        <test-method status="PASS" signature="emailValidation()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin@181a1bc]" name="emailValidation" duration-ms="15853" started-at="2015-12-15T11:43:56Z" description="Email Verification" finished-at="2015-12-15T11:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method status="PASS" signature="handleScreenShot(org.testng.ITestResult)[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin@181a1bc]" name="handleScreenShot" is-config="true" duration-ms="35" started-at="2015-12-15T11:44:12Z" finished-at="2015-12-15T11:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailValidation status=SUCCESS method=Ts001_Tc005_ValidateInvalidEmailLogin.emailValidation()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin@181a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenShot -->
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation">
+        <test-method status="PASS" signature="verifyCurrentLocation()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation@ba2a48]" name="verifyCurrentLocation" duration-ms="119482" started-at="2015-12-15T11:40:39Z" finished-at="2015-12-15T11:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentLocation -->
+        <test-method status="PASS" signature="handleScreenShot(org.testng.ITestResult)[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation@ba2a48]" name="handleScreenShot" is-config="true" duration-ms="38" started-at="2015-12-15T11:42:39Z" finished-at="2015-12-15T11:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCurrentLocation status=SUCCESS method=Ts001_Tc003_ValidateCurrentLocation.verifyCurrentLocation()[pri:0, instance:com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation@ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenShot -->
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc001_VerifyHeaderLinks -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation">
+        <methods>
+          <include name="verifyCurrentLocation"/>
+        </methods>
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc003_ValidateCurrentLocation -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality">
+        <methods>
+          <include name="verifySearchFunctionForKnownString"/>
+        </methods>
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc004_ValidateSearchFunctionality -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc002_VerifyInvalidLogin -->
+      <class name="com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin">
+        <methods>
+          <include name="emailValidation"/>
+        </methods>
+      </class> <!-- com.twc.imad.TwcProject.Ts001_Tc005_ValidateInvalidEmailLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
